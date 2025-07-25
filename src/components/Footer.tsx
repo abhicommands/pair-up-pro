@@ -14,25 +14,15 @@ const Footer: React.FC = () => {
               <Building2 className="h-6 w-6 text-primary" />
             </div>
             <div>
-              <h3 className="font-semibold text-foreground">Your Company</h3>
-              <p className="text-sm text-muted-foreground">Empowering connections</p>
+              <h3 className="font-semibold text-foreground">Apexon</h3>
+              <p className="text-sm text-muted-foreground"></p>
             </div>
           </div>
-
-          {/* Settings Link */}
-          <Button 
-            variant="ghost" 
-            size="sm"
-            className="text-muted-foreground hover:text-foreground"
-          >
-            <Settings className="mr-2 h-4 w-4" />
-            Settings
-          </Button>
         </div>
-        
+
         <div className="mt-6 pt-6 border-t border-border/50 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 Your Company. Built for meaningful mentor-mentee connections.
+            © 2025 Apexon
           </p>
         </div>
       </div>
