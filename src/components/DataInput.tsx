@@ -5,7 +5,7 @@ import { Card } from '@/components/ui/card';
 interface DataInputProps {
   title: string;
   placeholder: string;
-  onLoadData: (data: any[]) => void;
+  onLoadData: (data: unknown[]) => void;
   isLoaded: boolean;
 }
 
